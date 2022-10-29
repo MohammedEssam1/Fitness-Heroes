@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo.jpg">
+    <title>Fitness Heroes</title>
+    <link rel="stylesheet" href="particles.js-master/demo/css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="particles-js" ></div>
+
+    <section id="signin" class="login col-lg-5 py-5 rounded">
+        <img src="images/logo.jpg" alt="logo">
+        <h1 id="loginH1" class="mb-4">Sign in to fitness Heroes</h1>
+       <input class="form-control w-75 mt-3" type="text" placeholder="Enter your email">
+       <input class="form-control w-75 mt-3" type="password" placeholder="Enter your password">
+       <div class="w-75 d-none alert alert-danger py-2 my-2">please Enter a valid Email or password</div>
+       <button class="btn btn-dark px-5 my-4">Login</button>
+       <p class="text-center">Don't have an account? <a id="a1" class="text-decoration-none" href="#signUp">Sign up</a> </p>
+      
+      </section>
+      
+      <section id="signup" class="d-none login col-lg-5 py-5 rounded">
+        <img src="images/logo.jpg" alt="logo">
+        <h1 class="mb-4">Join fitness Heroes today</h1>
+        <input class="form-control w-75" type="text" placeholder="Enter your name">
+       <input class="form-control w-75 mt-3" type="text" placeholder="Enter your email">
+       <div class="w-75 d-none alert alert-danger py-2 my-2">please Enter a valid Email. ex: mysite@ourearth.com</div>
+       <input class="form-control w-75 mt-3" type="password" placeholder="Enter your password">
+       <p id="success" class="d-none text-center mb-0 mt-1 text-success fw-bold">Success</p>
+       <button class="btn btn-dark px-5 my-4">Sign up</button>
+       <p class="text-center">You have an account?<a id="a2" class="text-decoration-none" href="#Signin">Sign in</a> </p>
+      </section>
+
+      <section id="home" class="d-none">
+        <h1 class="text-center text-primary">Welcome to our gym</h1>
+        <button class="btn btn-light">Log out</button>
+      </section>
+
+
+
+
+      
+
+
+
+    <!-- #0a0d0f -->
+    <script src="particles.js-master/particles.min.js"></script>
+    <script src="particles.js-master/particles.js"></script>
+    <script src="particles.js-master/demo/js/app.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
